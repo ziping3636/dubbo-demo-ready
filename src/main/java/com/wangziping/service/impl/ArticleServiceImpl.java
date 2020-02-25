@@ -1,4 +1,4 @@
-package com.wangziping.dao.impl;
+package com.wangziping.service.impl;
 
 import java.util.List;
 
@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.wangziping.dao.ArticleService;
 import com.wangziping.domain.Article;
 import com.wangziping.domain.Condition;
 import com.wangziping.mapper.ArticleMapper;
+import com.wangziping.service.ArticleService;
 
 @Service
 public class ArticleServiceImpl implements ArticleService {

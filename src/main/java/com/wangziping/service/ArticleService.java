@@ -1,4 +1,4 @@
-package com.wangziping.dao;
+package com.wangziping.service;
 
 import com.github.pagehelper.PageInfo;
 import com.wangziping.domain.Article;

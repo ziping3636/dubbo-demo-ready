@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.github.pagehelper.PageInfo;
-import com.wangziping.dao.ArticleService;
 import com.wangziping.domain.Article;
 import com.wangziping.domain.Condition;
+import com.wangziping.service.ArticleService;
 
 @Controller
 public class ArticleController {
